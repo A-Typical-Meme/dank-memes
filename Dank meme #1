@@ -1,0 +1,10 @@
+initialize "mydude.exe"
+run_protocol "test" 
+if test_return == "Dank" then
+  initialize "mainmemes.exe"
+  shutdown "mydude.exe"
+else
+  write "Sorry, an error occured"
+  shutdown "mydude.exe"
+  end
+end
